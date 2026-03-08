@@ -1,0 +1,99 @@
+SESSION 3 - "Fire and Blood"
+Date played: 2026-03-01
+Players: 3 (full attendance)
+
+RECAP / WHERE WE LEFT OFF
+- Party is inside the Maw, a cult cave complex north of Dunholt.
+- Petra has been found dead on an altar. A Resonance Engine hangs above her.
+- An ancient, disembodied voice spoke: "You are very small to have come so far."
+- Tomas is missing but blood jars suggest he is alive, being kept somewhere deeper in.
+- Aldric's letter to the Solrath Vigil is still unanswered.
+
+WHAT HAPPENED
+
+Opening: Confronting the Voice
+- The Resonance Engine pulses with orange light. The voice returns — calmer, almost conversational.
+- Vaeltharax (through the Engine): "You've destroyed my Covenant's work on the surface. Admirable. But you do not understand what you've stumbled into."
+- Aldric demands answers. Vaeltharax obliges — he's not threatened, he's curious.
+- He explains (in his own framing): The Battle of Mirrath Pass was a betrayal. He was not slain — he was poisoned, entombed alive by the Order of Solrath using a binding ritual. He has been awake for centuries, unable to move, unable to speak, burning.
+- "The Covenant did not create me. They found me. They hear my dreams."
+- Vexa secretly scans the Engine with her tools while he talks. Gets a partial schematic — it is amplifying Vaeltharax's will outward, like a broadcast tower. The rituals feed it blood to keep it running.
+- Engine shuts down when Aldric angrily smashes a brazier — severs the power source temporarily.
+
+Scene 2: Finding Tomas
+- With the voice silenced, party moves deeper into the cave system.
+- Lower chamber: natural cavern, warmer (geothermal heat). Iron post driven into the ground with Tomas chained to it.
+- Tomas (16, gaunt, terrified) is alive but has been bled regularly via small cuts. Not critically injured.
+- He saw the Hollow Priest — describes a tall figure in layered gray robes, face completely hidden by a smooth white mask. Voice like gravel. "He said my blood was 'sympathetic' — that I was born near where the dragon sleeps."
+- Tomas rescued. Lena stays with him.
+
+Scene 3: The Hollow Priest arrives
+- Footsteps above. Party hears voices — the Hollow Priest has returned to the cave with six Covenant soldiers.
+- Party has one round to prep before the Priest enters the lower chamber.
+- Mira hides in the shadows immediately (stealth: 19).
+- Aldric takes a visible defensive stance with his shield — "I'm done with ambushes. He needs to see a paladin."
+- Vexa rigs a pressure plate at the chamber entrance using gear from her kit (quick trap, DC 13 to notice).
+
+Scene 4: The confrontation with the Hollow Priest
+- The Hollow Priest enters. He does NOT trigger the trap (rolled a 16 — notices it and steps over it).
+- "I expected the Vigil. I did not expect amateurs."
+- Combat begins — Priest commands soldiers forward.
+- Brutal fight:
+  - Priest uses dark magic — necrotic bolts, a fear aura that forces a WIS save (Aldric fails first round, backs up momentarily)
+  - Mira sneak-attacks the Priest directly from behind, dealing 18 damage — Priest is surprised ("Impossible — how did you—")
+  - Vexa fires Sprocket's net at two soldiers, pins them together, buys Aldric time to recover
+  - Aldric rallies and uses Lay on Hands on himself after taking 22 damage, stays in the fight
+  - Priest attempts to flee — runs back toward the Engine room
+  - Mira gives chase. Solo chase scene! Rolls Athletics vs. Priest's Acrobatics. Mira wins (14 vs 9).
+  - She tackles him in the Engine room. Pins him. "Who are you?"
+  - Party kills or subdues remaining soldiers.
+
+Scene 5: Unmasking the Hollow Priest
+- Aldric removes the mask.
+- The Hollow Priest is Captain Renfew — the garrison commander from Dunholt.
+- Shocked reactions all around. Aldric is personally offended ("You wore a soldier's honor and threw it away for a dead dragon.")
+- Renfew is broken — monologues about finding the cave as a young guard, hearing the voice for years, being slowly seduced. "He promised me purpose. He promised the town would be spared."
+- Vaeltharax has been manipulating Renfew for over a decade.
+- Renfew is disarmed, bound. He doesn't resist.
+
+Scene 6: The Engine's last pulse
+- With the confrontation over, the Engine begins to glow again — brighter than before.
+- Vaeltharax speaks without being asked: "You've removed the Priest. That is inconvenient. But I am patient. I have been patient for three hundred years."
+- Then, calmly: "The girl. The rogue. She has the smell of the mountain passes on her. Her brother is alive. He is in the camps near the Mirrath foothills. I thought you might want to know."
+- Mira freezes. She doesn't respond.
+- Vexa, quietly, to Aldric: "He's not threatening us. He's investing in us."
+- The Engine goes dark. Vaeltharax does not speak again.
+
+Scene 7: Return to Dunholt
+- Party returns to Dunholt with Tomas, Renfew, and Lena.
+- Tomas reunited with his father. Emotional scene.
+- Renfew turned over to a regional magistrate (Bess helps arrange this — she knows the right people).
+- Bess thanks them. Town hails them as heroes. Marcus's player milks this entirely. Much rejoicing.
+- Lena parts ways — heading back to the Archive of Veth to file a full report. She gives Vexa a copy of her Engine schematic notes. "In case you need to understand it later."
+- At the edge of town, Mira sits alone. Aldric approaches and asks about what Vaeltharax said. She says: "I know." Long silence. "We'll deal with the dragon. Then we go north."
+
+SESSION ENDED HERE
+
+CLIFFHANGERS / HOOKS FOR NEXT SESSION
+- Vaeltharax is still entombed — still alive — still broadcasting. The Engine is dark for now but not destroyed.
+- Mira's brother is reportedly alive in the Mirrath foothills (slaver camps). Party has a new direction.
+- The Solrath Vigil has STILL not responded. Why? Are they compromised? Did they know about the entombment?
+- Lena's archive report will attract attention — academic, political, and possibly cultist.
+- What did "sympathetic blood" mean? Why was Tomas specifically chosen?
+
+LOOT / XP
+- 20 gp bonus from the magistrate (reward for Renfew's capture)
+- Hollow Priest's mask (ornate, smooth white stone, no markings — magical aura, unidentified)
+- Hollow Priest's spellbook (partial — 3 spells: Inflict Wounds, Cause Fear, Necrotic Bolt (homebrew))
+- Resonance Engine schematic notes (from Lena)
+- Renfew's garrison key ring (opens several doors in the Dunholt garrison)
+- 250 XP each (boss fight, roleplay, discovery, rescue)
+
+LEVEL UP: All PCs advance to Level 3.
+
+DM NOTES
+- Mira's brother (Corvan) is alive in a slaver operation run by a man named Drest Ashford near the Mirrath foothills. This hooks into the next arc.
+- The Vigil is NOT compromised — they're just slow and bureaucratic. A Vigil knight will arrive next session too late to be useful, which should frustrate Aldric.
+- Vaeltharax offering information is deliberate: he is cultivating the party as future agents, or at minimum, as variables he can monitor. He is not evil in a simple sense — he is ageless and transactional.
+- Consider a downtime session before heading north: town celebration, shopping, crafting for Vexa, a moment for Aldric to write back to the Vigil.
+- The white mask: radiate magic (abjuration school). It suppresses the wearer's emotional aura. Renfew could never be read by Aldric's Insight while wearing it.

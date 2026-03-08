@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Session 3 — Fire and Blood</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f0d0a; --surface: #1a1610; --border: #3a2e1e;
+      --amber: #c8922a; --amber-dim: #8a6218;
+      --text: #d4c5a9; --text-dim: #8a7a62;
+    }
+    body { background: var(--bg); color: var(--text); font-family: 'Crimson Text', Georgia, serif; font-size: 1.2rem; line-height: 1.8; min-height: 100vh; }
+    .page-wrap { max-width: 760px; margin: 0 auto; padding: 3rem 2rem 6rem; }
+    .site-nav { display: flex; justify-content: space-between; align-items: center; padding-bottom: 2rem; border-bottom: 1px solid var(--border); margin-bottom: 3rem; }
+    .site-nav a { color: var(--amber-dim); text-decoration: none; font-family: 'Cinzel', serif; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s; }
+    .site-nav a:hover { color: var(--amber); }
+    .site-nav .session-links { display: flex; gap: 1.5rem; }
+    .session-meta { font-family: 'Cinzel', serif; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--amber-dim); margin-bottom: 0.75rem; }
+    h1 { font-family: 'Cinzel', serif; font-size: 2.4rem; font-weight: 600; color: var(--amber); line-height: 1.2; margin-bottom: 0.5rem; }
+    .session-date { font-size: 0.9rem; color: var(--text-dim); font-style: italic; margin-bottom: 3rem; }
+    .divider { text-align: center; color: var(--amber-dim); margin: 2.5rem 0; letter-spacing: 0.3em; font-size: 0.85rem; opacity: 0.6; }
+    p { margin-bottom: 1.4em; }
+    p:last-child { margin-bottom: 0; }
+    h2 { font-family: 'Cinzel', serif; font-size: 1.05rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--amber); margin: 3rem 0 1.2rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
+    blockquote { border-left: 3px solid var(--amber-dim); margin: 1.8rem 0; padding: 0.5rem 1.4rem; font-style: italic; color: var(--text-dim); background: rgba(200, 146, 42, 0.04); }
+    .session-footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--text-dim); display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .session-footer h3 { font-family: 'Cinzel', serif; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--amber-dim); margin-bottom: 0.5rem; }
+    .session-footer ul { list-style: none; padding: 0; }
+    .session-footer ul li::before { content: "— "; color: var(--amber-dim); }
+    .session-pagination { margin-top: 3rem; display: flex; justify-content: space-between; }
+    .session-pagination a { font-family: 'Cinzel', serif; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--amber); text-decoration: none; border: 1px solid var(--amber-dim); padding: 0.5rem 1.2rem; transition: all 0.2s; }
+    .session-pagination a:hover { background: var(--amber); color: var(--bg); }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <nav class="site-nav">
+    <a href="../index.html">&#8592; All Sessions</a>
+    <div class="session-links">
+      <a href="../session-1/index.html">I</a>
+      <a href="../session-2/index.html">II</a>
+      <a href="../session-3/index.html">III</a>
+    </div>
+  </nav>
+
+  <p class="session-meta">Session Three &bull; The Sleeper Beneath Mirrath</p>
+  <h1>Fire and Blood</h1>
+  <p class="session-date">Played 2026-03-01</p>
+
+  <p>The Resonance Engine pulsed with light the color of embers, and the voice that had hung in the chamber like smoke began again — calmer now, almost conversational, as though whatever moved the air had reconsidered its opening gambit and decided on a different approach.</p>
+
+  <blockquote>"You've destroyed my Covenant's work on the surface. Admirable. But you do not understand what you've stumbled into."</blockquote>
+
+  <p>Aldric Sorn stepped forward. He had a gift for stepping forward that had served him well through a decade of soldiering and a subsequent career of standing between things and the people they wanted to harm, and he deployed it now without apparent concern for the fact that there was nothing in front of him to put his shield against. "Then explain it," he said. "Clearly."</p>
+
+  <p>The voice, to its credit, obliged. It was not threatened. It was curious — the way something becomes curious when it has had three hundred years alone with its own thoughts and has finally been given something new to consider.</p>
+
+  <h2>The Dragon's Account</h2>
+
+  <p>Vaeltharax had not been slain at the Battle of Mirrath Pass. This was, the voice conveyed, a matter of historical record that the Order of Solrath had worked very hard to present otherwise. What had happened was this: he had been poisoned — a binding compound introduced into the mountain spring that fed the valley below, designed with exquisite care by the Order's artificers, and deployed in the last hour of the battle when his attention was elsewhere. He had fallen not in combat but in sleep, and had woken to find himself encased in stone.</p>
+
+  <p>He had been awake ever since. Unable to move. Unable to speak, save through methods that required considerable preparation and considerable blood. Burning, he said — and the word carried something that was not quite grief and not quite fury and had been sitting beneath the surface of both for three centuries.</p>
+
+  <blockquote>"The Covenant did not create me. They found me. They hear my dreams."</blockquote>
+
+  <p>While the dragon spoke, Vexa Crankwheel moved quietly around the periphery of the chamber with her instruments, scanning the Resonance Engine with the methodical attention of someone who understands that the best time to study a machine is when it is busy doing something else. What she found aligned with her earlier assessment, and confirmed the worst of it: the Engine was broadcasting Vaeltharax's will outward across the foothills like a lantern broadcasting light, and the rituals — the blood, the jars, the altar — were fuel for the flame. The more blood fed to the Engine, the farther the signal reached. The farther the signal reached, the more people heard it in their sleep. The more people heard it, the more joined the Covenant. The Covenant gathered more blood. The Engine burned brighter.</p>
+
+  <p>Aldric, who had been listening to all of this with mounting feeling, turned and drove his gauntlet into the nearest brazier. The vessel shattered; the flame died; the Engine's light guttered and dimmed. The voice cut off mid-sentence like a candle pinched between two fingers. The silence that followed felt enormous.</p>
+
+  <h2>The Boy in the Dark</h2>
+
+  <p>With the Engine quieted, they moved deeper into the cave system, following a passage that sloped down into geothermal warmth — a lower chamber where the rock itself was slightly warm to the touch and the air tasted of minerals and old heat. An iron post had been driven into the floor. Chained to it was Tomas, sixteen years old and considerably worse for the past several weeks but alive, which was the only thing that mattered in that particular moment.</p>
+
+  <p>He was gaunt and pale from blood loss — the Covenant had taken from him carefully, regularly, in small enough quantities to keep him useful. When Lena knelt beside him with a water skin, he drank without speaking, and for a while he only breathed.</p>
+
+  <p>When he could speak, he described the Hollow Priest. Tall. Robed in gray. A smooth white mask where a face should be, and behind it a voice that moved like gravel in a sluice. The Priest had told him, with what seemed like genuine interest, that his blood was sympathetic — that the accident of his birth, in a village at the foot of the Mirrath mountains, had given his blood a resonance that the Engine could use more efficiently than most.</p>
+
+  <p>Lena stayed with Tomas. The other three went back to the upper chambers to wait, because the footsteps they could hear descending through the rock above them had already made that decision for everyone.</p>
+
+  <h2>The Hollow Priest</h2>
+
+  <p>They had one round of warning. Mira used it to become part of the shadows in a way that was not quite natural and which she had never adequately explained. Aldric planted himself in the center of the chamber with his shield raised and his expression set, because he had decided at some point in his career that if something was going to see a paladin, it should see one properly. Vexa rigged a pressure plate across the entrance with three components from her kit and a silent prayer to whatever gods oversaw clockwork.</p>
+
+  <p>The Hollow Priest stepped over the plate without breaking stride, which meant he had noticed it, which meant he had been expecting something. He looked at the pressure plate, and then at Aldric standing in the center of the room like an argument made physical, and he said, in the voice Tomas had described:</p>
+
+  <blockquote>"I expected the Vigil. I did not expect amateurs."</blockquote>
+
+  <p>He raised one hand and six Covenant soldiers came through the door behind him, and then the night became a different kind of darkness entirely.</p>
+
+  <p>The Priest was not what the word "cultist" suggested. His fear aura rolled through the chamber like a cold front, and when Aldric failed to push through it in the first terrible second, he stumbled back two steps — the first time in the campaign that something had moved him without his shield in the way. The necrotic bolts came fast after that, leaving trails of dim light in the air, and one of them caught Aldric across the ribs and he took the hit and stayed standing, but it cost him.</p>
+
+  <p>What the Priest had not planned for was Mira.</p>
+
+  <p>She came out of the shadow behind him as though the shadow had simply decided to stop containing her, and the two daggers struck before he knew she was there. He took eighteen points of damage and said, with what sounded like genuine surprise: <em>Impossible — how did you—</em></p>
+
+  <p>He did not finish the sentence. Vexa had already fired Sprocket's net across the chamber and caught two soldiers together, and while they struggled with that particular problem, Aldric put his hands to his own chest and channeled Solrath's healing through his palms — a paladin's last resort and a soldier's pragmatism, buying himself back into the fight. He went back in.</p>
+
+  <p>The Priest, to his credit, recognized a losing position faster than most. He turned and ran for the Engine room. He was fast.</p>
+
+  <p>Mira was faster.</p>
+
+  <p>It was a close thing — she gained on him through the passage and tackled him in the doorway to the upper chamber, and they went down together among the chains and the dying light of the Engine. She pinned him. She looked down at the white mask and said, simply: "Who are you?"</p>
+
+  <h2>The Face Behind the Mask</h2>
+
+  <p>Aldric was the one who removed it. His hands were steady. The mask came free.</p>
+
+  <p>The face beneath belonged to Captain Renfew, garrison commander of Dunholt, the man Aldric had interviewed four days ago in a neat office on the second floor of the garrison building and read as frightened. Renfew, who had dismissed the investigation. Renfew, who had told his guards not to go near the mill at night, because he had known, all along, exactly what was under it.</p>
+
+  <p>The silence lasted a moment. Then Aldric said, in a voice that was very quiet and very level:</p>
+
+  <blockquote>"You wore a soldier's honor and threw it away for a dead dragon."</blockquote>
+
+  <p>Renfew did not argue. He had the look of a man who has been carrying a justification for so long that he has forgotten whether it was ever true. He had been a young guard when he found the cave. He had heard the voice for the first time alone in the dark with a torch and no one to tell. He had gone back. He had kept going back. And one day he had stopped going back for knowledge and started going back for purpose, and the voice had known exactly when that line was crossed, because it had been waiting for it.</p>
+
+  <p>"He promised me purpose," Renfew said. "He promised the town would be spared."</p>
+
+  <p>They bound his hands. He did not resist. The remaining soldiers, disarmed and accounted for, sat against the wall with the expressions of men who had underestimated the odds significantly.</p>
+
+  <h2>The Last Word</h2>
+
+  <p>The Resonance Engine began to glow again in the quiet after the fighting — brighter than before, as though the violence had fed it somehow, or simply as though whatever moved it had waited for the noise to stop. The voice returned without preamble.</p>
+
+  <blockquote>"You've removed the Priest. That is inconvenient. But I am patient. I have been patient for three hundred years."</blockquote>
+
+  <p>A pause. Then, in a different register — something almost casual, the way you mention a thing you know will land:</p>
+
+  <blockquote>"The girl. The rogue. She has the smell of the mountain passes on her. Her brother is alive. He is in the camps near the Mirrath foothills. I thought you might want to know."</blockquote>
+
+  <p>Mira Ashveil went still in the way of a person who has just been handed something they wanted very badly and cannot yet determine what it will cost them. She did not move. She did not speak.</p>
+
+  <p>Vexa, standing beside Aldric, said quietly and to no one in particular: "He's not threatening us. He's investing in us."</p>
+
+  <p>The Engine went dark. The voice did not come again.</p>
+
+  <h2>Home</h2>
+
+  <p>They came back to Dunholt in the early morning, five of them now — Tomas pale and walking carefully between Lena and Aldric, Renfew bound and silent, Mira three steps ahead of everyone and not looking back. The town was not yet awake when they arrived, which was perhaps for the best.</p>
+
+  <p>Tomas's father came to the door of the mill house in his nightclothes and stood for a moment in the lamplight looking at his son, and then he sat down on the doorstep because his legs had stopped working, and Tomas sat down beside him, and they stayed there for a while without speaking. It was the quietest good thing the party had witnessed in some time.</p>
+
+  <p>Renfew was turned over to the regional magistrate, which Bess arranged with the efficiency of someone who has spent thirty years knowing exactly which official to contact when what. The magistrate came by midday. By evening, the town knew. By the following morning, Dunholt had decided, in the way of small towns everywhere, to have a celebration, and the party was at the center of it whether they wished to be or not.</p>
+
+  <p>Lena Croft departed the next morning for the Archive of Veth, riding her borrowed mule with her journal full and her expression satisfied in the way of someone who has produced excellent field research under adversarial conditions. At the gate she pressed a sheaf of papers into Vexa's hands — her notes on the Resonance Engine, hand-drawn schematics and theoretical annotations both. "In case you need to understand it later," she said. Vexa did not say that she already planned to. She said thank you instead, which was rarer and more meaningful.</p>
+
+  <p>At the edge of town, when the celebration was still audible behind them and the north road was dark ahead, Mira sat on a stone wall and looked at the foothills. Aldric came and stood beside her without being asked. Neither spoke for a moment.</p>
+
+  <p>"He told you something true," Aldric said, finally. "Whatever else he is."</p>
+
+  <p>"I know," Mira said.</p>
+
+  <p>A long silence. The fires of Dunholt behind them. The dark of the Mirrath foothills ahead.</p>
+
+  <p>"We'll deal with the dragon," she said. "Then we go north."</p>
+
+  <div class="divider">&#10022; &nbsp; &#10022; &nbsp; &#10022;</div>
+
+  <div class="session-footer">
+    <div>
+      <h3>Earned This Session</h3>
+      <ul>
+        <li>20 gp bonus from the magistrate</li>
+        <li>The Hollow Priest's white mask (magical, unidentified)</li>
+        <li>Partial spellbook (3 spells)</li>
+        <li>Resonance Engine schematics (from Lena)</li>
+        <li>250 XP each &bull; Level 3</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Questions Left Unanswered</h3>
+      <ul>
+        <li>Vaeltharax is entombed, not defeated</li>
+        <li>Mira's brother Corvan — is it true?</li>
+        <li>The Solrath Vigil still has not written back</li>
+        <li>What did "sympathetic blood" mean?</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="session-pagination">
+    <a href="../session-2/index.html">&#8592; Session II: The Sleeper's Name</a>
+    <span style="opacity:0.3; font-family:'Cinzel',serif; font-size:0.8rem; letter-spacing:0.08em; text-transform:uppercase; padding: 0.5rem 1.2rem;">Next Session Coming</span>
+  </div>
+
+</div>
+</body>
+</html>

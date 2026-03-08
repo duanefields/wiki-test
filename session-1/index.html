@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Session 1 — The Amber Road</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f0d0a;
+      --surface: #1a1610;
+      --border: #3a2e1e;
+      --amber: #c8922a;
+      --amber-dim: #8a6218;
+      --text: #d4c5a9;
+      --text-dim: #8a7a62;
+      --red: #9e3a2a;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Crimson Text', Georgia, serif;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 3rem 2rem 6rem;
+    }
+
+    /* Nav */
+    .site-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 3rem;
+    }
+    .site-nav a {
+      color: var(--amber-dim);
+      text-decoration: none;
+      font-family: 'Cinzel', serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .site-nav a:hover { color: var(--amber); }
+    .site-nav .session-links { display: flex; gap: 1.5rem; }
+
+    /* Header */
+    .session-meta {
+      font-family: 'Cinzel', serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--amber-dim);
+      margin-bottom: 0.75rem;
+    }
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.4rem;
+      font-weight: 600;
+      color: var(--amber);
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+    .session-date {
+      font-size: 0.9rem;
+      color: var(--text-dim);
+      font-style: italic;
+      margin-bottom: 3rem;
+    }
+
+    /* Divider */
+    .divider {
+      text-align: center;
+      color: var(--amber-dim);
+      margin: 2.5rem 0;
+      letter-spacing: 0.3em;
+      font-size: 0.85rem;
+      opacity: 0.6;
+    }
+
+    /* Prose */
+    p {
+      margin-bottom: 1.4em;
+    }
+    p:last-child { margin-bottom: 0; }
+
+    /* Scene heading */
+    h2 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin: 3rem 0 1.2rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Pull quote / speech */
+    blockquote {
+      border-left: 3px solid var(--amber-dim);
+      margin: 1.8rem 0;
+      padding: 0.5rem 1.4rem;
+      font-style: italic;
+      color: var(--text-dim);
+      background: rgba(200, 146, 42, 0.04);
+    }
+
+    /* Footer metadata */
+    .session-footer {
+      margin-top: 5rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    .session-footer h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--amber-dim);
+      margin-bottom: 0.5rem;
+    }
+    .session-footer ul {
+      list-style: none;
+      padding: 0;
+    }
+    .session-footer ul li::before {
+      content: "— ";
+      color: var(--amber-dim);
+    }
+
+    /* Next session link */
+    .next-session {
+      margin-top: 3rem;
+      text-align: right;
+    }
+    .next-session a {
+      font-family: 'Cinzel', serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--amber);
+      text-decoration: none;
+      border: 1px solid var(--amber-dim);
+      padding: 0.5rem 1.2rem;
+      transition: all 0.2s;
+    }
+    .next-session a:hover {
+      background: var(--amber);
+      color: var(--bg);
+    }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <nav class="site-nav">
+    <a href="../index.html">&#8592; All Sessions</a>
+    <div class="session-links">
+      <a href="../session-1/index.html">I</a>
+      <a href="../session-2/index.html">II</a>
+      <a href="../session-3/index.html">III</a>
+    </div>
+  </nav>
+
+  <p class="session-meta">Session One &bull; The Sleeper Beneath Mirrath</p>
+  <h1>The Amber Road</h1>
+  <p class="session-date">Played 2026-02-01</p>
+
+  <p>The town of Dunholt sits at the elbow of the Amber Road like a man who has stopped to rest and forgotten to rise again. Its docks smell of river mud and salted fish; its single tavern, the Pickled Goat, smells of everything else. On a cold evening in the last week of winter, three strangers arrived in Dunholt within hours of one another, drawn by rumor, coin, or some private hunger that each kept close as a blade.</p>
+
+  <p>The first was Aldric Sorn — a broad-shouldered paladin in sun-worn armor, bearing on his shield the blazing eye of Solrath. He had the look of a man who had seen war and decided, after long consideration, that he preferred something that felt more like justice. The second was Mira Ashveil, who slipped into the common room as though she had always been there and you had simply failed to notice. She ordered wine, said nothing, and watched the room. The third was Vexa Crankwheel, gnome, artificer, and enthusiast, who arrived trailing the faint smell of burnt copper and speaking at considerable speed to no one in particular about hydraulic tolerances.</p>
+
+  <p>Bess Collow, the Pickled Goat's proprietress, found each of them separately before the night was out.</p>
+
+  <h2>A Landlady's Petition</h2>
+
+  <p>Three people had vanished from Dunholt in the past month. Tomas, the sixteen-year-old son of the miller. A merchant whose name Bess could not quite remember, which told its own small story. And Petra — Petra who had mended half the shirts in town, who left a candle burning in her window each night, whose candle had been dark now for two weeks.</p>
+
+  <p>The town guard, Bess explained with a tight flatness in her voice, would not investigate. Would not go near the old mill after dark. Captain Renfew had made that quite clear.</p>
+
+  <p>Ten gold up front. Forty on completion. The three strangers looked at one another across the common room — Aldric with quiet purpose, Mira with the practiced absence of expression, Vexa with naked curiosity — and agreed.</p>
+
+  <h2>What the Town Knew</h2>
+
+  <p>Aldric went to the garrison. He was the sort of man that soldiers recognized instinctively, and Captain Renfew received him in his office with every appearance of professional courtesy. But Aldric had spent years learning to read men who did not wish to be read, and what he read in Renfew was fear. Not the manufactured nervousness of a man caught in a lie — something deeper, more settled. The fear of a man who has been frightened for a long time and has made a kind of peace with it.</p>
+
+  <p>Mira went to the docks. She was the sort of person the docks were accustomed to: quiet, purposeful, unremarkable. Near the river's edge she found a scrap of cloth half-buried in the mud, torn as if from a cloak in a struggle. Pressed into the fabric was a symbol she had never seen — a serpent devouring its own tail, but cut through with angular geometric lines that severed the circle in three places. She folded it into her jacket and said nothing to anyone.</p>
+
+  <p>Vexa went to the alchemist, a man named Dunby who answered his door in the manner of someone who had been hoping no one would knock. Someone, he told her, had been purchasing sulfur and black salt in quantities that would have alarmed him professionally even if the buyer had not also alarmed him personally. Enough to preserve a dozen bodies, he said. He would not say who. His hands, Vexa noted, had not stopped moving during the entire conversation.</p>
+
+  <h2>The Old Mill</h2>
+
+  <p>The mill at the edge of town had not run in a year. Its wheel sat dark in the current; its windows were shuttered; a sign on the gate declared it closed for renovations, which no one had performed. At dusk, the party approached through the tree line.</p>
+
+  <p>Mira went up a tree. From her perch she watched two gray-robed figures emerge from behind the mill and descend through a hidden cellar door set flush with the earth. She came back down and reported this with the economy of someone who has learned that information is most valuable when it is precise and brief.</p>
+
+  <p>Aldric, who was not built for subtlety, approached the mill's front door and broke the lock with his shield. The sound was not quiet. They went in anyway.</p>
+
+  <p>Inside: the smell of rot and old grain, the skitter of rats in the dark, and at the back of the main floor, a false panel in the planking that Vexa's instruments found within minutes. Beneath it, stone steps descended into a tunnel that smelled powerfully of sulfur, carved by hands that had been in a hurry and had not cared about aesthetics.</p>
+
+  <h2>Blood and Stone</h2>
+
+  <p>Three cultists waited in the tunnel — gray-robed, anonymous, and unprepared for the particular combination of a paladin's shield, a rogue's daggers, and a gnome with a modified crossbow. The fight was brief. Aldric absorbed the attention of two of them; Mira emerged from a shadow that had not, a moment before, seemed large enough to conceal anyone, and put the third on the ground in two economical strikes. The fourth cultist, attempting to flee, ran directly into the net-bolt Vexa had been patiently waiting to deploy.</p>
+
+  <p>The captured man refused to speak — at first. Aldric knelt before him, and the golden light of a Zone of Truth settled over the tunnel like something warm and inexorable. The cultist's face cycled through several emotions before settling on a kind of exhausted capitulation.</p>
+
+  <blockquote>"The Hollow needs the blood," he said. "The Sleeper must rise."</blockquote>
+
+  <p>Then he closed his eyes and either fainted or decided to pretend to faint, which amounted to the same practical outcome. They tied his hands and moved on.</p>
+
+  <p>The tunnel opened into a stone chamber that smelled of old iron and older fear. A ritual circle had been inscribed on the floor in dried blood, its geometry precise and elaborate in the way of things designed to channel something that did not wish to be channeled. Three iron cages stood along the far wall. Two were empty. In the third, a young woman lay barely conscious, her wrists raw from the bars.</p>
+
+  <p>She was not Petra. No one could say who she was. She was alive, and would not speak.</p>
+
+  <p>It was Aldric who noticed the wall. Carved into the stone in bas-relief, covering the entire rear face of the chamber, was a dragon — massive, serpentine, coiled around the peak of a mountain with one eye open and one closed. The craftsmanship was centuries old. The subject was older still.</p>
+
+  <p>Aldric had grown up on the stories of the Order of Solrath's greatest victory. He had read the texts. He knew the shape of that coil, the specific architecture of those scales.</p>
+
+  <p>The dragon's name was Vaeltharax. The church had declared him dead three hundred years ago.</p>
+
+  <p>Standing in that cold chamber beneath a mill in a town no one particularly cared about, looking up at one open eye carved in ancient stone, Aldric Sorn began to suspect that the church had been wrong.</p>
+
+  <div class="divider">&#10022; &nbsp; &#10022; &nbsp; &#10022;</div>
+
+  <div class="session-footer">
+    <div>
+      <h3>Earned This Session</h3>
+      <ul>
+        <li>10 gp (advance from Bess Collow)</li>
+        <li>Cultist iron dagger</li>
+        <li>Partial map — unidentified location</li>
+        <li>120 XP each</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Questions Left Unanswered</h3>
+      <ul>
+        <li>Who is the woman in the cage?</li>
+        <li>What is the Hollow? What is the Sleeper?</li>
+        <li>What does the serpent symbol mean?</li>
+        <li>What does Renfew know?</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="next-session">
+    <a href="../session-2/index.html">Session II: The Sleeper's Name &#8594;</a>
+  </div>
+
+</div>
+</body>
+</html>

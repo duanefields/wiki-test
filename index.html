@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sleeper Beneath Mirrath — Campaign Chronicle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f0d0a; --surface: #1a1610; --border: #3a2e1e;
+      --amber: #c8922a; --amber-dim: #8a6218;
+      --text: #d4c5a9; --text-dim: #8a7a62;
+    }
+    body { background: var(--bg); color: var(--text); font-family: 'Crimson Text', Georgia, serif; font-size: 1.15rem; line-height: 1.8; min-height: 100vh; }
+    .page-wrap { max-width: 800px; margin: 0 auto; padding: 5rem 2rem 6rem; }
+
+    /* Hero */
+    .site-title {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      font-weight: 600;
+      color: var(--amber);
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+    .site-subtitle {
+      font-family: 'Cinzel', serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--amber-dim);
+      margin-bottom: 2rem;
+    }
+    .site-intro {
+      max-width: 560px;
+      color: var(--text-dim);
+      font-size: 1.05rem;
+      margin-bottom: 4rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Party roster */
+    .party-section { margin-bottom: 4rem; }
+    .section-label {
+      font-family: 'Cinzel', serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--amber-dim);
+      margin-bottom: 1.5rem;
+    }
+    .party-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1px; border: 1px solid var(--border); }
+    .party-member { padding: 1.2rem 1.4rem; background: var(--surface); }
+    .party-member:not(:last-child) { border-right: 1px solid var(--border); }
+    .member-name { font-family: 'Cinzel', serif; font-size: 0.9rem; color: var(--amber); margin-bottom: 0.2rem; }
+    .member-desc { font-size: 0.85rem; color: var(--text-dim); line-height: 1.5; }
+
+    /* Sessions */
+    .sessions-section { }
+    .session-card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--border);
+      transition: all 0.2s;
+    }
+    .session-card:first-child { border-top: 1px solid var(--border); }
+    .session-card:hover .card-title { color: var(--amber); }
+    .session-card:hover .card-arrow { opacity: 1; transform: translateX(4px); }
+    .card-header { display: flex; align-items: baseline; gap: 1rem; margin-bottom: 0.5rem; }
+    .card-number {
+      font-family: 'Cinzel', serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--amber-dim);
+      white-space: nowrap;
+    }
+    .card-date { font-size: 0.8rem; color: var(--text-dim); font-style: italic; }
+    .card-title-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.8rem; }
+    .card-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--text);
+      transition: color 0.2s;
+    }
+    .card-arrow { color: var(--amber); font-size: 1.2rem; opacity: 0.4; transition: all 0.2s; }
+    .card-summary { color: var(--text-dim); font-size: 1rem; max-width: 600px; line-height: 1.65; }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <p class="site-subtitle">Campaign Chronicle</p>
+  <h1 class="site-title">The Sleeper Beneath Mirrath</h1>
+  <p class="site-intro">A tabletop roleplaying campaign. Three adventurers, a dying trade town, and something old and patient burning in the dark beneath the mountains. These are the session chronicles — the record of what happened, told as closely as memory and drama will allow.</p>
+
+  <div class="party-section">
+    <p class="section-label">The Party</p>
+    <div class="party-grid">
+      <div class="party-member">
+        <p class="member-name">Mira Ashveil</p>
+        <p class="member-desc">Half-elf rogue. Twin daggers. Searching for a brother the world told her was gone.</p>
+      </div>
+      <div class="party-member">
+        <p class="member-name">Aldric Sorn</p>
+        <p class="member-desc">Human paladin of Solrath. Former soldier. Deeply principled. Terrible at subtlety.</p>
+      </div>
+      <div class="party-member">
+        <p class="member-name">Vexa Crankwheel</p>
+        <p class="member-desc">Gnome artificer. Carries a crossbow named Sprocket. Interested in everything.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sessions-section">
+    <p class="section-label">Sessions</p>
+
+    <a href="session-1/index.html" class="session-card">
+      <div class="card-header">
+        <span class="card-number">Session I</span>
+        <span class="card-date">February 1, 2026</span>
+      </div>
+      <div class="card-title-row">
+        <span class="card-title">The Amber Road</span>
+        <span class="card-arrow">&#8594;</span>
+      </div>
+      <p class="card-summary">Three strangers meet in a border town where people have been quietly disappearing. A nervous innkeeper, a nervous garrison captain, and an abandoned mill that smells of sulfur lead them underground — where something carved in ancient stone opens one eye and waits.</p>
+    </a>
+
+    <a href="session-2/index.html" class="session-card">
+      <div class="card-header">
+        <span class="card-number">Session II</span>
+        <span class="card-date">February 15, 2026</span>
+      </div>
+      <div class="card-title-row">
+        <span class="card-title">The Sleeper's Name</span>
+        <span class="card-arrow">&#8594;</span>
+      </div>
+      <p class="card-summary">A scholar is freed from a cage and names what no one wanted named. A low-ranking cultist names the rest. The party rides north along a hunting trail, ambushes and all, to find a cave complex that reeks of ritual and old blood — and at the bottom of it, a machine that should not exist, speaking in a voice that should not be heard.</p>
+    </a>
+
+    <a href="session-3/index.html" class="session-card">
+      <div class="card-header">
+        <span class="card-number">Session III</span>
+        <span class="card-date">March 1, 2026</span>
+      </div>
+      <div class="card-title-row">
+        <span class="card-title">Fire and Blood</span>
+        <span class="card-arrow">&#8594;</span>
+      </div>
+      <p class="card-summary">The dragon speaks and the party listens — then breaks the machine and goes looking for the boy. A boss fight. An unmasking that hits harder than the fight did. And a final word from Vaeltharax that leaves one member of the party very still and the other two quietly reckoning with the shape of what comes next.</p>
+    </a>
+
+  </div>
+
+</div>
+</body>
+</html>

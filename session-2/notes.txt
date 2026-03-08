@@ -1,0 +1,86 @@
+SESSION 2 - "The Sleeper's Name"
+Date played: 2026-02-15
+Players: 3 (full attendance)
+
+RECAP / WHERE WE LEFT OFF
+- Party has cleared the tunnel under the old mill in Dunholt.
+- Found a captive woman (unknown identity) in a cage in a ritual chamber.
+- Bas-relief of dragon Vaeltharax on the wall. Cultist prisoner tied up.
+- Bess Collow still waiting at the Pickled Goat for news.
+
+WHAT HAPPENED
+
+Opening: The chamber
+- Party frees the woman from the cage. She's weak, dehydrated, but alert.
+- Reveals herself as Lena Croft, a scholar from the Archive of Veth. She was researching the Amber Road disappearances academically and got abducted three nights ago.
+- Lena immediately recognizes the bas-relief: "That's not just any dragon. That's Vaeltharax the Unburned — they never found his body after the Battle of the Mirrath Pass. The church just... declared him dead."
+- Lena is fascinated by the ritual circle. Vexa stops her from touching it. Tension moment — Lena and Vexa argue about the merits of academic curiosity vs. not dying.
+
+Scene 2: The captive cultist
+- Cultist wakes up. His name is Hobb — low-ranking, clearly not a true believer. He joined for food and coin.
+- With some roleplay from Mira (persuasion check, nat 20!), Hobb opens up:
+  - The cult calls itself "the Ashen Covenant"
+  - They answer to someone called "the Hollow Priest" — robed, masked, speaks in a rasping voice
+  - Rituals are held at the mill and at a second site — somewhere in the foothills north of Dunholt, near a place called "the Maw"
+  - The three missing locals: Tomas the miller's son is alive (kept elsewhere), the merchant was used in a ritual (dead), Petra's fate unknown
+  - "They said something big is coming. Something from under the mountain."
+- Hobb agrees to cooperate in exchange for safe passage out of town. Aldric is skeptical but allows it.
+- Hobb is escorted out of the tunnel by Mira and released at the town's edge. He disappears into the dark.
+
+Scene 3: Morning / returning to the Pickled Goat
+- Party returns to Bess. She cries when she hears some of the missing are dead. Pays the 40gp each.
+- Lena asks to join the party temporarily to document the cult — Aldric and Vexa say yes, Mira abstains.
+- Downtime: Vexa spends the morning on a crafting project — she upgrades Sprocket with a pressure-release reload mechanism. Now gets bonus action reload on a misfire.
+
+Scene 4: Research at the garrison / library
+- Aldric sends a letter to his order (the Solrath Vigil) requesting information on Vaeltharax and the Ashen Covenant. Response will take days.
+- Lena has notes: the "serpent eating its tail" symbol is called the Ouroboros Shattered — used by cults dedicated to undoing old deaths. Specifically: gods, demigods, and "world-shaping beasts."
+- Mira goes to the docks and finds a cult contact — a river trader named Osk who was passing information to the Covenant. She catches him trying to leave town. Intimidation check (success) — Osk reveals the second site is a cave system called the Maw, half a day's ride north. He's let go (reluctantly).
+
+Scene 5: The Road North
+- Party sets out north along a hunting trail. Lena comes along, riding a borrowed mule.
+- Travel encounter: ambushed by four Covenant scouts. Well-armed, not robed — these are proper guards, not low-ranking recruits.
+- Fight in the middle of the road. Notable moments:
+  - Vexa's net-bolt misfires (rolled a 2), tangling Aldric briefly — hilarious.
+  - Mira kills one scout with a thrown dagger before initiative is rolled (DM ruled it as a surprise round).
+  - Aldric uses Divine Smite for the first time this campaign — crits, absolutely destroys one scout.
+  - Lena throws a rock. Hits. "I'm not helpless."
+- One scout captured. Confirms they were told to watch the road for "investigators."
+
+Scene 6: The Maw
+- Party reaches the Maw at dusk — a wide cave mouth in the foothills, reeking of sulfur and ash.
+- Signs of recent activity: wheel ruts, discarded torch casings, a fire pit still warm.
+- Inside the cave: crude barracks (8 bedrolls, half-eaten food), a storage area with ritual components (sulfur, black salt, jars of blood labeled with names — including "Tomas" and "Petra").
+- A locked iron door deeper in. Vexa can hear machinery behind it — rhythmic, like bellows or a pump.
+- Mira picks the lock (success on second attempt).
+
+Scene 7: Beyond the door
+- A large natural cavern converted into a ritual workspace. Braziers. A stone altar. And a body.
+- Petra — dead. Arranged on the altar. Not decayed. Looks peaceful but clearly drained of blood.
+- Above the altar, suspended on chains: a massive bronze disc covered in engraved script. Vexa identifies it as a Resonance Engine — a mythological artificer device said to amplify magical energy.
+- While examining the disc, the chains begin to creak. Something is activating.
+- Then — a voice. From everywhere. Deep, ancient, and amused:
+  "You are very small to have come so far. Turn back, and I will consider it mercy."
+
+SESSION ENDED HERE — on the cliffhanger voice.
+
+CLIFFHANGERS
+- Whose voice? Is Vaeltharax already communicating through the engine?
+- Petra is dead. How do they tell Bess and the town?
+- Tomas is still unaccounted for. The blood jars suggest he's being used as a living source.
+- The Resonance Engine is activating — what does it do?
+- Aldric's letter to the Vigil hasn't been answered yet.
+
+LOOT / XP
+- 40 gp each from Bess
+- Scout equipment (4 sets, sold for 12gp total = 3gp each)
+- Ritual components (sulfur, black salt — Vexa keeps them for crafting)
+- Resonance Engine (too large and dangerous to move — noted for later)
+- 180 XP each (combat x2, investigation, roleplay, discovery)
+
+DM NOTES
+- The voice is Vaeltharax — he's not fully awake but aware. Can communicate through the Engine when it pulses.
+- Tomas is alive in a lower chamber — bound, scared, used for blood. Not permanently harmed yet.
+- The Hollow Priest has not appeared yet — next session introduction.
+- Lena's presence is working well; she's becoming a party favorite NPC.
+- Need to address Mira's backstory hook — her brother. Consider a rumor that slavers operate near the mountains.
