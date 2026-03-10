@@ -42,8 +42,9 @@ Fire these reads simultaneously:
 - `characters/mira-ashveil/character.md`
 - `characters/aldric-sorn/character.md`
 - `characters/vexa-crankwheel/character.md`
-- `templates/session.html` — for the HTML structure
-- An existing session page (e.g. `session-3/index.html`) — to match the writing style
+- `templates/session.html` — canonical structure for session pages
+- `templates/character.html` — canonical structure for journal entries
+- An existing session page (e.g. `session-3/index.html`) — to match the prose style and tone
 
 Do not start writing until all reads are complete.
 
@@ -78,29 +79,13 @@ These are non-negotiable. Read the notes once to understand what happened, then 
 
 ## Step 3 — Update root `index.html`
 
-Add a new `<a class="session-card">` block inside `.sessions-section`, following the exact pattern of existing cards:
-
-```html
-<a href="session-N/index.html" class="session-card">
-  <div class="card-header">
-    <span class="card-number">Session [Roman numeral]</span>
-    <span class="card-date">[Month Day, Year]</span>
-  </div>
-  <div class="card-title-row">
-    <span class="card-title">[Title]</span>
-    <span class="card-arrow">&#8594;</span>
-  </div>
-  <p class="card-summary">[2–3 sentence summary in narrative style]</p>
-</a>
-```
-
-The summary should read like back-cover copy — present the dramatic stakes, not a plot synopsis.
+Add a new session card inside `.sessions-section`, matching the structure of the existing cards exactly. The summary should read like back-cover copy — present the dramatic stakes, not a plot synopsis.
 
 ---
 
 ## Step 4 — Append journal entries to character pages
 
-Each character has a journal at `characters/[name]/index.html`. Add a new `<article>` entry at the **top** of the journal entries (most recent first), inside whatever container holds the entries. Match the existing entry markup exactly.
+Each character has a journal at `characters/[name]/index.html`. Add a new `.journal-entry` block at the **top** of the entries (most recent first), using the structure from `templates/character.html` as the markup reference. Include the `.entry-header` with session number, in-world date, and a link to the session page.
 
 Write **4–6 paragraphs** per character, first-person past tense. Each character's `character.md` (already read in Step 1) is the source of truth for their voice, header style, focus, and current arc — use it. Each character experienced the same session differently; emphasize what matters *to them* based on who they are.
 

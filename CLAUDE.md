@@ -7,6 +7,10 @@ This project publishes narrative recaps of tabletop RPG sessions as a static web
 ```text
 wiki/
 ├── CLAUDE.md              # This file
+├── .claude/
+│   └── skills/
+│       └── process-session/
+│           └── SKILL.md  # Session-publishing pipeline
 ├── style.css              # Shared stylesheet — edit here to change site appearance
 ├── templates/
 │   ├── session.html       # Structural shell for new session pages
