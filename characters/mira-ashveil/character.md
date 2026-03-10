@@ -2,7 +2,7 @@
 
 **Class:** Rogue
 **Race:** Half-elf
-**Level:** 3 (as of Session 3)
+**Level:** 4 (as of Session 4)
 **Player:** Sarah
 
 ## Voice & Tone
@@ -26,29 +26,36 @@ takes jobs for coin, not cause, but has a strong private moral code she never ar
 
 She is not the kind of person who explains why she does things.
 
-## Equipment (as of Session 3)
+## Equipment (as of Session 4)
 
 - Twin daggers (her primary weapons)
 - Cultist iron dagger (taken Session 1)
 - Hollow Priest's white stone mask — smooth, no markings, magical aura (unidentified, abjuration)
 - Partial map of an unidentified underground location (Session 1)
 - Garrison key ring (Renfew's, opens several doors in the Dunholt garrison)
+- Potion of Healing (from the Cradle supply room — party loot, her share TBD)
+- 15 gp (share of 45 gp from Cradle strongbox)
 
 ## Relationships
 
-- **Aldric Sorn** — trusts him more than she'd admit. He doesn't push. She respects that.
-- **Vexa Crankwheel** — finds her useful and occasionally alarming. Comfortable working together.
+- **Aldric Sorn** — trusts him more than she'd admit. He didn't ask. He didn't push. That continues
+  to matter.
+- **Vexa Crankwheel** — finds her useful and occasionally alarming. Accepted Vexa's impossible
+  promise without comment. Letting her try.
 - **Bess Collow** — professional respect. Bess doesn't ask unnecessary questions.
 - **Vaeltharax** — deeply unsettled by the fact that he knows about Corvan. Has not processed this.
+- **Sable** — new. Branded, young, clearly withholding something. Mira has not decided what to make
+  of her yet.
 
 ## Personal Arc
 
-Searching for her brother **Corvan Ashveil**, believed taken by slavers years ago. As of Session 3,
-Vaeltharax has revealed that Corvan is alive in slaver camps near the Mirrath foothills, run by a
-man named Drest Ashford. The party's next direction is north.
+Searching for her brother **Corvan Ashveil**. As of Session 4, his name has appeared in a partially
+burned Hollow Priest logbook recovered from the Cradle waystation — the nature of his involvement
+with the Covenant is unknown. Victim? Willing participant? Something in between?
 
-Mira has not shared this with the group in detail. Aldric knows she's processing it. She has said:
-*"We'll deal with the dragon. Then we go north."*
+Mira has now shared Corvan's situation with the full group. This is new. She said what she knew and
+let the group hold it with her. The road ahead leads toward Ashenford and deeper into Covenant
+territory.
 
 ## Session Arc Notes
 
@@ -58,3 +65,6 @@ Mira has not shared this with the group in detail. Aldric knows she's processing
   Experienced as a professional.
 - **Session 3:** Stealth 19. Chased the Hollow Priest solo and tackled him in the Engine room.
   Froze when Vaeltharax named Corvan. Closed the session flat.
+- **Session 4:** Spotted the Covenant brand on a fleeing pilgrim (Insight 18) and argued for
+  surveillance over confrontation. Found Corvan's name in the Cradle logbook. Told the group about
+  him for the first time.

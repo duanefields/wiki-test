@@ -1,0 +1,117 @@
+SESSION 4 NOTES "The Hollow Road" Players: Mira, Aldric, Vexa DM notes in [brackets]
+
+---
+
+OPENING — Dunholt, morning after Renfew's unmasking
+
+- Party still at Bess's inn. She's shaken, not sleeping. Makes them breakfast anyway. "What do you
+  do with a town whose protector was a monster?"
+- Aldric helps her board up the garrison office. Good roleplay moment, no roll needed.
+- Lena shows up — she stayed the night, studying the medallion they took off Renfew
+  - Medallion has a sigil she doesn't recognize but it REACTS when she holds it near the Mirrath map
+    she's been carrying
+  - "It's not a symbol of worship. It's a KEY of some kind."
+- [DM NOTE: Lena is starting to realize she's in over her head. She's an academic. This is not what
+  she signed up for. Foreshadowing her potential departure or a crisis point.]
+
+---
+
+SCENE 2 — The Hollow Road (travel scene)
+
+- Party decides to follow the road southeast toward the Mirrath foothills. Renfew's papers mentioned
+  a waystation — "the Cradle" — used by the Hollow Priests
+- Vexa rigs a trip alarm for camp. Rolls 14 on tinker check. Works fine.
+- Midday: encounter on road. Three travelers going the OTHER direction, panicked.
+  - Pilgrims from a village called Ashenford
+  - "Something drove us out. It was underground — sounds, like breathing, under the earth."
+  - [DM NOTE: This is Vaeltharax stirring. Not waking, just dreaming. The dreams are bleeding into
+    the surface world. Animals acting strange, ground cracking, fires starting spontaneously.]
+  - Mira rolls Insight — 18 — she clocks that they're not lying but they're also not telling
+    everything. One of them has a Hollow Priest brand on his forearm (hidden).
+  - She doesn't confront yet. Tells Aldric quietly. He wants to stop them — Mira talks him down. "We
+    learn more by letting them run."
+  - Vexa quietly tracks them with a modified crossbow scope. Gets a direction of travel.
+
+---
+
+SCENE 3 — The Waystation ("the Cradle")
+
+- Abandoned-looking farmhouse, but chimney is smoking
+- Vexa scouts ahead (stealth roll: 17). Sees two guards in Hollow Priest robes, bored. One is
+  picking at something on his boot. Second has a crossbow.
+- Party plan: Aldric walks up openly as a "traveler." Vexa flanks. Mira goes rooftop.
+  - Aldric rolls Persuasion: 9. Guards aren't buying the traveling merchant story.
+  - Fight breaks out. Initiative order: Vexa, Guard 1, Mira, Aldric, Guard 2
+  - Vexa: Sprocket fires — CRIT on guard with crossbow. He drops.
+  - Guard 1 runs for the farmhouse door. Mira drops from roof (acrobatics 16), cuts him off with
+    twin daggers. Rolls 11 to hit, 15 to hit. First misses (he dodges), second connects — 9 damage.
+    Guard goes down on Aldric's follow-up (Divine Smite — Aldric has been holding that since the
+    session started).
+
+---
+
+SCENE 4 — Inside the Cradle
+
+- Farmhouse is a front. Trapdoor under a rug leads to a stone chamber below.
+- Carvings on the walls — same sigil as Renfew's medallion. MORE complex here.
+- [DM NOTE: This is a ritual prep space. The Hollow Priests have been using this location for
+  months. The ritual isn't complete — Renfew's death disrupted the timeline. But it's close.]
+- Find: logbook (partially burned — someone tried to destroy it)
+  - Legible entries mention "the Third Calling," "the Sleeper responds," and a name: CORVAN.
+  - Mira sees her brother's name. Hard stop. She goes very quiet.
+  - Aldric notices. Rolls Insight — 20. He sees it. Puts his hand on her shoulder. Does not ask.
+    Gives her a moment.
+  - Vexa, oblivious, is already photographing everything with a small clockwork device. [Good Vexa
+    moment — she's not cold, just focused]
+- Lena translates a partial ritual inscription: "When the Sleeper tastes the blood of the Willing,
+  the door opens from below."
+  - "That means someone has to go in on purpose. A sacrifice that volunteers."
+
+---
+
+SCENE 5 — Camp, night
+
+- Emotional scene. Mira finally tells the group about Corvan.
+  - He disappeared 8 months ago. She thought he was dead. Seeing his name here — she doesn't know
+    what to think. Is he a victim? A priest?
+  - Aldric: "Whatever he became, that's not the end of his story. It never is."
+  - Vexa: silence, then — "I'll build something that finds him. Give me two days." [Vexa is
+    promising more than she can deliver and she knows it. Good arc moment.]
+- Night watch. Aldric on first watch.
+  - ENCOUNTER: a figure approaches from the treeline. Slow, arms out. NOT threatening.
+  - It's a young woman, maybe 17. Ashenford refugee. Separated from the pilgrims.
+  - Her name is SABLE. She has the same brand as the man on the road.
+  - She says: "I didn't choose it. They said my sister would be safe."
+  - [DM NOTE: Sable is a loose thread. She knows more about the Cradle than she's saying. Could be
+    an asset or a liability. Leave this open.]
+  - Aldric lets her stay. Makes her breakfast (rations). She sleeps by the fire.
+
+---
+
+LEVEL UP: Party reaches Level 4 at end of session.
+
+LOOT:
+
+- Hollow Priest logbook (partial, key evidence)
+- Renfew's sigil medallion (key/artifact — still held by Lena)
+- 45 gp split from garrison strongbox
+- 1x Potion of Healing (found in Cradle supply room)
+- Sprocket upgrade parts (Vexa claims these — gnome artificer components)
+
+XP: ~1,200 (encounters + RP + discovery)
+
+NEW NPCs:
+
+- Sable — young, branded, morally gray, knows something
+- [The fleeing pilgrim with the brand — unnamed, direction tracked by Vexa]
+
+OPEN THREADS:
+
+- Corvan's name in the logbook
+- "Third Calling" — what are First and Second?
+- Lena's crisis of nerve
+- Sable — who is she really?
+- Vaeltharax stirring dreams
+- Vexa's promise to Mira
+
+NEXT SESSION: Road to Ashenford? Or follow the pilgrims?
