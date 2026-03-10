@@ -3,6 +3,17 @@
 A static website publishing narrative recaps of *The Sleeper Beneath Mirrath* tabletop RPG campaign.
 Raw session notes are transformed into dramatic, fantasy-novel-style prose and served as simple HTML pages.
 
+## Prerequisites
+
+You'll need [Claude Code](https://claude.ai/code) — Anthropic's AI coding assistant. The easiest
+way to get started is the **Claude desktop app**: open it, go to the **Cowork** tab, and select
+this project folder as your Cowork folder. Claude will have full access to the files and skills
+in this repo. You can also run Claude Code in the terminal (`claude`) or via the VS Code extension
+if you prefer.
+
+After recording a new session, commit and push your changes to GitHub so the chronicle stays
+backed up and your collaborators (or future you) can see the full history.
+
 ## Directory Structure
 
 ```text
