@@ -7,6 +7,10 @@ This project publishes narrative recaps of tabletop RPG sessions as a static web
 ```text
 wiki/
 ├── CLAUDE.md              # This file
+├── style.css              # Shared stylesheet — edit here to change site appearance
+├── templates/
+│   ├── session.html       # Structural shell for new session pages
+│   └── character.html     # Structural shell for new character journal pages
 ├── index.html             # Root index — links to all sessions with summaries
 ├── characters/            # One folder per player character
 │   ├── mira-ashveil/
