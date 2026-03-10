@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mira Ashveil — Journal | The Sleeper Beneath Mirrath</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f0d0a;
+      --surface: #1a1610;
+      --border: #3a2e1e;
+      --amber: #c8922a;
+      --amber-dim: #8a6218;
+      --text: #d4c5a9;
+      --text-dim: #8a7a62;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Crimson Text', Georgia, serif;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 3rem 2rem 6rem;
+    }
+
+    /* Nav */
+    .site-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 3rem;
+    }
+    .site-nav a {
+      color: var(--amber-dim);
+      text-decoration: none;
+      font-family: 'Cinzel', serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .site-nav a:hover { color: var(--amber); }
+    .site-nav .char-links { display: flex; gap: 1.5rem; }
+    .site-nav .char-links a.active { color: var(--amber); }
+
+    /* Character header */
+    .char-meta {
+      font-family: 'Cinzel', serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--amber-dim);
+      margin-bottom: 0.75rem;
+    }
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.4rem;
+      font-weight: 600;
+      color: var(--amber);
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+    .char-tagline {
+      font-size: 1rem;
+      color: var(--text-dim);
+      font-style: italic;
+      margin-bottom: 3rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Journal entries */
+    .journal-entry {
+      margin-bottom: 4rem;
+    }
+    .entry-header {
+      margin-bottom: 1.5rem;
+    }
+    .entry-session {
+      font-family: 'Cinzel', serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--amber-dim);
+      margin-bottom: 0.4rem;
+    }
+    .entry-date {
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.3rem;
+    }
+    .entry-session-link {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+    }
+    .entry-session-link a {
+      color: var(--amber-dim);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .entry-session-link a:hover { color: var(--amber); }
+
+    /* Divider */
+    .divider {
+      text-align: center;
+      color: var(--amber-dim);
+      margin: 2.5rem 0;
+      letter-spacing: 0.3em;
+      font-size: 0.85rem;
+      opacity: 0.6;
+    }
+
+    /* Prose */
+    p { margin-bottom: 1.4em; }
+    p:last-child { margin-bottom: 0; }
+
+    blockquote {
+      border-left: 3px solid var(--amber-dim);
+      margin: 1.8rem 0;
+      padding: 0.5rem 1.4rem;
+      font-style: italic;
+      color: var(--text-dim);
+      background: rgba(200, 146, 42, 0.04);
+    }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <nav class="site-nav">
+    <a href="../../index.html">&#8592; Campaign</a>
+    <div class="char-links">
+      <a href="../mira-ashveil/index.html" class="active">Mira</a>
+      <a href="../aldric-sorn/index.html">Aldric</a>
+      <a href="../vexa-crankwheel/index.html">Vexa</a>
+    </div>
+  </nav>
+
+  <p class="char-meta">Journal &bull; The Sleeper Beneath Mirrath</p>
+  <h1>Mira Ashveil</h1>
+  <p class="char-tagline">Half-elf rogue. Twin daggers. Searching for a brother the world told her was gone.</p>
+
+  <div class="journal-entry">
+    <div class="entry-header">
+      <p class="entry-session">Session I</p>
+      <p class="entry-date">Dunholt. Late Coldmarch.</p>
+      <p class="entry-session-link">&#8594; <a href="../../session-1/index.html">The Amber Road</a></p>
+    </div>
+
+    <p>Another town with a grieving woman and coin on the table. Innkeeper named Bess. Good instincts — she looked at all three of us before she spoke, figured out which one to approach first. Smart.</p>
+
+    <p>The job: three missing locals. Town guard won't touch it. Guard captain — Renfew — I didn't go to him directly, but I watched him from across the square when Aldric came out of the garrison. The way he stood. The way he didn't watch us leave. A man with something to protect and no way to protect it anymore. I've seen that before.</p>
+
+    <p>I found the symbol at the docks. Cloth in the mud, pressed against a piling. A serpent cutting its own circle, with angular geometric cuts through it — not a natural symbol, not decorative. Intentional. Designed to mean something specific to someone who knew what to look for. I've seen something like it before, years ago, on a warehouse door in the borderlands the night before — it's probably nothing. It's always probably nothing, until it isn't.</p>
+
+    <p>The mill. The tunnel. The fight was clean enough. Then we found the chamber. A woman in a cage, alive. And carved into the back wall, the most detailed stonework I'd seen outside a temple: a dragon, one eye open, coiled around a mountain like it was waiting for something.</p>
+
+    <p>Aldric went still when he recognized it. I don't know the church lore the way he does. But I know what it looks like when someone sees the shape of a problem much larger than the one they came to solve. I'm starting to know that look well. I see it in the mirror most mornings.</p>
+  </div>
+
+  <div class="divider">&#10022; &nbsp; &#10022; &nbsp; &#10022;</div>
+
+  <div class="journal-entry">
+    <div class="entry-header">
+      <p class="entry-session">Session II</p>
+      <p class="entry-date">Still in Dunholt, then the road north.</p>
+      <p class="entry-session-link">&#8594; <a href="../../session-2/index.html">The Sleeper's Name</a></p>
+    </div>
+
+    <p>The woman was a scholar. Lena Croft, Archive of Veth. She had that specific kind of competent recklessness that academics develop when they spend too long reading about danger and not enough time standing in it. She wanted to touch the ritual circle. Vexa stopped her. I let them argue — it was useful information about both of them.</p>
+
+    <p>The cultist — Hobb — was easier than expected. Not a true believer, just hungry and scared. Those are the best kind to talk to. I found the thing he was most afraid of losing and handed it back to him, and he told us everything. The Hollow Priest. The Maw. Tomas still alive. I walked Hobb to the edge of town afterward. He didn't look back. Good. That's what smart people do.</p>
+
+    <p>Osk at the docks tried to run. He thought moving information for the Covenant was safer than moving goods. He was wrong. He told me where the Maw was. I let him go because I didn't need him for anything else, and killing inconvenient people has a way of becoming a habit I don't want.</p>
+
+    <p>The road north. Ambush in the middle of the trail — four scouts, well-armed, watching for exactly what we were. The fight went well enough. Aldric called down something that lit up half the road, which I will never entirely get used to watching. Then the cave. The Resonance Engine. The voice.</p>
+
+    <blockquote>"You are very small to have come so far."</blockquote>
+
+    <p>I've been called small before. Usually by people who are about to find out I'm not. But this was different — a voice that had been waiting a long time, amused by us the way you're amused by something that has no idea what it's walked into. I didn't say anything. There wasn't anything useful to say. But I noted, on the shelves in that cave, jars labeled with names. One said Tomas. Another said Petra. There was a third I didn't let myself look at twice. Just in case.</p>
+  </div>
+
+  <div class="divider">&#10022; &nbsp; &#10022; &nbsp; &#10022;</div>
+
+  <div class="journal-entry">
+    <div class="entry-header">
+      <p class="entry-session">Session III</p>
+      <p class="entry-date">After. The road back to Dunholt.</p>
+      <p class="entry-session-link">&#8594; <a href="../../session-3/index.html">Fire and Blood</a></p>
+    </div>
+
+    <p>I had him in the Engine room with my knee in his back and his mask on the floor and his arms pinned, and I said: <em>Who are you?</em> He didn't answer. That's fine. We found out anyway.</p>
+
+    <p>Aldric pulled the mask. Garrison commander. Renfew. The man who'd been standing in the garrison office pretending to be afraid while he was actually something else entirely. Years of it. The voice like gravel, the smooth white mask, the layered gray robes. And underneath — just a man who got lonely and heard something patient speaking in the dark, and said yes. I don't have a lot of pity for that. But I understand it more than I'd like.</p>
+
+    <p>We brought him back. Turned him over to the magistrate. Bess handled the paperwork. The town celebrated. Aldric accepted the praise with quiet grace. Vexa accepted it enthusiastically and at length. I sat on a fence at the edge of town and tried to think clearly.</p>
+
+    <p>Then Vaeltharax spoke in the Engine room, before we left. Calm. Conversational. He said he knew where Corvan was. The foothills near Mirrath. Slaver camps. He said it the way you'd tell someone the weather — a fact offered, not a threat, not a gift. An investment.</p>
+
+    <p>I didn't move. I didn't answer him. I don't know yet what it means that a three-hundred-year-old dragon buried under a mountain knows where my brother is and chose to tell me. Vexa thinks he's cultivating us as future instruments. She's probably right. That's not a comforting thought.</p>
+
+    <p>Aldric found me at the fence. Asked what I was thinking. I said: <em>I know.</em> Long pause. <em>We'll deal with the dragon. Then we go north.</em> He didn't push. Good man.</p>
+  </div>
+
+</div>
+</body>
+</html>

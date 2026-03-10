@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aldric Sorn — Journal | The Sleeper Beneath Mirrath</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f0d0a;
+      --surface: #1a1610;
+      --border: #3a2e1e;
+      --amber: #c8922a;
+      --amber-dim: #8a6218;
+      --text: #d4c5a9;
+      --text-dim: #8a7a62;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Crimson Text', Georgia, serif;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 3rem 2rem 6rem;
+    }
+
+    /* Nav */
+    .site-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 3rem;
+    }
+    .site-nav a {
+      color: var(--amber-dim);
+      text-decoration: none;
+      font-family: 'Cinzel', serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .site-nav a:hover { color: var(--amber); }
+    .site-nav .char-links { display: flex; gap: 1.5rem; }
+    .site-nav .char-links a.active { color: var(--amber); }
+
+    /* Character header */
+    .char-meta {
+      font-family: 'Cinzel', serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--amber-dim);
+      margin-bottom: 0.75rem;
+    }
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.4rem;
+      font-weight: 600;
+      color: var(--amber);
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+    .char-tagline {
+      font-size: 1rem;
+      color: var(--text-dim);
+      font-style: italic;
+      margin-bottom: 3rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Journal entries */
+    .journal-entry {
+      margin-bottom: 4rem;
+    }
+    .entry-header {
+      margin-bottom: 1.5rem;
+    }
+    .entry-session {
+      font-family: 'Cinzel', serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--amber-dim);
+      margin-bottom: 0.4rem;
+    }
+    .entry-date {
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.3rem;
+    }
+    .entry-session-link {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+    }
+    .entry-session-link a {
+      color: var(--amber-dim);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .entry-session-link a:hover { color: var(--amber); }
+
+    /* Divider */
+    .divider {
+      text-align: center;
+      color: var(--amber-dim);
+      margin: 2.5rem 0;
+      letter-spacing: 0.3em;
+      font-size: 0.85rem;
+      opacity: 0.6;
+    }
+
+    /* Prose */
+    p { margin-bottom: 1.4em; }
+    p:last-child { margin-bottom: 0; }
+
+    blockquote {
+      border-left: 3px solid var(--amber-dim);
+      margin: 1.8rem 0;
+      padding: 0.5rem 1.4rem;
+      font-style: italic;
+      color: var(--text-dim);
+      background: rgba(200, 146, 42, 0.04);
+    }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <nav class="site-nav">
+    <a href="../../index.html">&#8592; Campaign</a>
+    <div class="char-links">
+      <a href="../mira-ashveil/index.html">Mira</a>
+      <a href="../aldric-sorn/index.html" class="active">Aldric</a>
+      <a href="../vexa-crankwheel/index.html">Vexa</a>
+    </div>
+  </nav>
+
+  <p class="char-meta">Journal &bull; The Sleeper Beneath Mirrath</p>
+  <h1>Aldric Sorn</h1>
+  <p class="char-tagline">Human paladin of Solrath. Former soldier. Deeply principled. Terrible at subtlety.</p>
+
+  <div class="journal-entry">
+    <div class="entry-header">
+      <p class="entry-session">Session I</p>
+      <p class="entry-date">4 Coldmarch &middot; 847</p>
+      <p class="entry-session-link">&#8594; <a href="../../session-1/index.html">The Amber Road</a></p>
+    </div>
+
+    <p>Arrived in Dunholt before evening. The town is small and tired in the way of places that once had more purpose — a trade post that the trade has half-abandoned, kept upright by habit and stubbornness. I have seen a dozen like it on the road south from the capital.</p>
+
+    <p>Bess Collow found me within an hour of my arrival. An innkeeper with the manner of a woman who has learned to assess situations quickly and act without hesitation. Three missing in her town. The guard unwilling to help. She asked for assistance in the plain terms of someone past the point of embarrassment about asking. I said yes. I always say yes to that kind of asking. It is, I think, why Solrath put me on roads.</p>
+
+    <p>I went to see Renfew at the garrison. He received me with professional courtesy and told me nothing useful. But I spent eight years in the field learning to read men who did not wish to be read, and what I read in Renfew was fear. Not the manufactured nervousness of a man caught in a lie — something deeper, more settled. The kind of fear that has been living in a man for so long that he has stopped fighting it and started accommodating it instead. I said nothing of this to the others. Not yet. A suspicion is not an accusation.</p>
+
+    <p>The mill. The tunnel. The fight was brief and straightforward — three gray-robed men who had not expected us, which was their misfortune. The woman in the cage was alive, which mattered more than the fight. I swore a quiet oath in that chamber to see her safely out, which is perhaps a small oath against the scale of what followed.</p>
+
+    <p>Because then I saw the wall. I know the texts. I have read them more times than I can count — the Battle of Mirrath Pass, the Order's great victory, the binding and the declaration of death. Every paladin of Solrath knows this story. And the carving in that stone was done by someone who had seen the subject, centuries ago, and rendered it with care. The open eye looked back at me with the patience of something that had not died.</p>
+
+    <p>Vaeltharax. The church declared him dead three hundred years ago. Standing in that cold chamber, looking up at the bas-relief, I began to think the church had made an error. I have written to the Vigil requesting information. I will await their guidance. But I confess — the waiting already feels like the wrong response.</p>
+  </div>
+
+  <div class="divider">&#10022; &nbsp; &#10022; &nbsp; &#10022;</div>
+
+  <div class="journal-entry">
+    <div class="entry-header">
+      <p class="entry-session">Session II</p>
+      <p class="entry-date">19 Coldmarch &middot; 847</p>
+      <p class="entry-session-link">&#8594; <a href="../../session-2/index.html">The Sleeper's Name</a></p>
+    </div>
+
+    <p>Lena Croft is a scholar of the Archive of Veth, and she is either very brave or very reckless, and I suspect after two weeks of acquaintance that both are true in roughly equal measure. She named Vaeltharax without hesitation, working from primary sources — texts that apparently contradict the church's official account in significant ways. She said they never found the body after Mirrath Pass. She said the Order simply declared him dead and closed the record.</p>
+
+    <p>This troubles me more than I have admitted to anyone.</p>
+
+    <p>We rode north. The ambush on the road was four scouts — professional, not robed recruits — which suggests the Covenant expected an investigation. In the fighting, I called upon Solrath's blessing and brought the full weight of divine judgment to bear on one of them. He went down. I felt it as I always feel it: the surge of grace, the certainty that the hand of my god is present. I am grateful for this every time it happens. Afterward I sometimes wonder if I am reading it correctly. Whether what I interpret as Solrath's approval is something more complicated. I do not resolve this tonight. I rarely do.</p>
+
+    <p>The Maw. The cave. Petra on the altar — dead, bloodless, arranged with a terrible precision. I said a prayer over her. It felt inadequate. It usually does, in those moments. The words are the same words, and the situation is never the same situation, and the gap between them is something I have not yet found language for.</p>
+
+    <p>And then the voice.</p>
+
+    <p>I demanded answers. The voice obliged — or rather, it chose to speak in the way that a thing which has no need to justify itself sometimes chooses to speak, for reasons of its own. Ancient. Patient. Endlessly amused by us in the particular way of something that has outlasted all the things that ever opposed it. I expected a monster's register. I did not get one. I got something that sounded, in its strange way, like a mind. Like an argument I was not prepared to answer.</p>
+
+    <blockquote>He did not sound like a monster. I have been trying, since we left the cave, to understand why that frightens me more than if he had.</blockquote>
+
+    <p>The Vigil has not responded to my letter. I will send another.</p>
+  </div>
+
+  <div class="divider">&#10022; &nbsp; &#10022; &nbsp; &#10022;</div>
+
+  <div class="journal-entry">
+    <div class="entry-header">
+      <p class="entry-session">Session III</p>
+      <p class="entry-date">4 Bloodawn &middot; 847</p>
+      <p class="entry-session-link">&#8594; <a href="../../session-3/index.html">Fire and Blood</a></p>
+    </div>
+
+    <p>Vaeltharax explained himself. He was entombed alive. The Order of Solrath performed the binding ritual — not a slaying, a burial. He was conscious beneath a mountain for three centuries, burning, awake, unable to move or speak except through whatever mechanism allowed his dreams to reach the minds of those who slept near the stone. And what he has done with three centuries is build a network of human instruments, patient as architecture, to amplify his will outward through a machine.</p>
+
+    <p>I do not know yet what to do with this. I have put it aside to record it plainly here, because I find that I cannot think about it clearly until I have written it down.</p>
+
+    <p>The Hollow Priest arrived while I was still thinking. He came with soldiers and brought a fear aura that hit me in the opening moment and forced me back two steps before I could marshal myself. I am not proud of those two steps. I am recording them because it would be dishonest not to. I pressed forward when I recovered, called upon Solrath's grace through Lay on Hands, stayed in the fight. The grace came. It always comes. I try not to take that for granted.</p>
+
+    <p>Mira handled the Priest herself in the end, running him down with a efficiency I have come to recognize as the form her anger takes when she has decided something must end. She pinned him in the Engine room. I removed the mask.</p>
+
+    <p>Renfew.</p>
+
+    <p>I have been a soldier. I know what it is to serve under a commander who failed his men — men who followed orders they should have questioned, who surrendered judgment to authority and paid the cost. But what Renfew did was different. He was not deceived and not coerced, not exactly. He found the cave as a young guard. He heard the voice. And he chose — gradually, one small accommodation at a time, over a decade — to answer it. By the end there was nothing left of the soldier he had been. Only the mask and the robes and Vaeltharax's patience wearing his face.</p>
+
+    <p>I am not angry at Renfew. I am something harder to resolve than angry. I am sad for what he was before, and I am trying to hold that alongside the accounting of what he did. He is in custody. He will face a magistrate. That is the proper order of things, and I believe in the proper order of things.</p>
+
+    <p>The Vigil still has not written. I will write again. I am Aldric Sorn, paladin of Solrath, and I have been given this year a great deal of material for the long project of deciding what I actually believe — as opposed to what I was trained to believe. I think I prefer it this way. It is harder. The light means more when you have had to look for it yourself.</p>
+  </div>
+
+</div>
+</body>
+</html>

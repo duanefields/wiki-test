@@ -4,10 +4,20 @@ This project publishes narrative recaps of tabletop RPG sessions as a static web
 
 ## Directory Structure
 
-```
+```text
 wiki/
 ├── CLAUDE.md              # This file
 ├── index.html             # Root index — links to all sessions with summaries
+├── characters/            # One folder per player character
+│   ├── mira-ashveil/
+│   │   ├── character.md   # Voice, backstory, equipment, arc — source of truth for generation
+│   │   └── index.html     # Mira's journal — first-person entries per session
+│   ├── aldric-sorn/
+│   │   ├── character.md
+│   │   └── index.html     # Aldric's journal
+│   └── vexa-crankwheel/
+│       ├── character.md
+│       └── index.html     # Vexa's journal
 └── session-N/             # One folder per play session (session-1, session-2, ...)
     ├── notes.txt          # Raw session notes (source of truth)
     └── index.html         # Generated narrative for that session
@@ -17,42 +27,83 @@ wiki/
 
 When a new session folder is added or `notes.txt` is updated:
 
-1. **Generate `session-N/index.html`** — Transform the raw notes into a dramatic fantasy-novel-style narrative. Expand bullet points and scene descriptions into prose. Preserve all key facts (names, places, outcomes, dice results if interesting). Do not invent events not implied by the notes.
+1. **Generate `session-N/index.html`** — Transform the raw notes into a dramatic fantasy-novel-style
+   narrative. Expand bullet points and scene descriptions into prose. Preserve all key facts (names,
+   places, outcomes, dice results if interesting). Do not invent events not implied by the notes.
 
-2. **Update `root index.html`** — Add or refresh an entry for the session. Each entry should include:
+2. **Update `root index.html`** — Add or refresh an entry for the session. Each entry should
+   include:
    - Session number and title
    - Date played
    - A 2–3 sentence summary (written in the same narrative style)
    - A link to the session's `index.html`
 
+3. **Generate character journal entries** — For each of the three player characters, append a new
+   dated entry to their journal page in `characters/[name]/index.html`. Extract key moments from
+   the session notes that are relevant to that specific character. Write in their voice
+   (first-person, past tense). Weave in equipment gained, abilities used, and emotional reactions
+   naturally — do not list them separately. See "Character Journal Entries" below.
+
 ## Notes Format
 
 `notes.txt` files are extracted from handwritten PDF notes. They are informal and may include:
+
 - Scene-by-scene breakdowns
 - Bullet-pointed events and dialogue snippets
 - Dice roll outcomes
 - NPC names and descriptions
 - Loot/XP tracking
-- DM notes (behind-the-scenes context — include in narrative only if appropriate as dramatic irony or foreshadowing)
+- DM notes (behind-the-scenes context — include in narrative only if appropriate as dramatic irony
+  or foreshadowing)
 
 ## Narrative Style
 
 - Write in third-person past tense, like a chapter from a fantasy novel
 - Dramatic, atmospheric, and character-focused
 - Preserve the actual character names and proper nouns exactly as written in the notes
-- Dice outcomes can be woven in as moments of fate ("the gods favored her aim" rather than "she rolled a 19")
+- Dice outcomes can be woven in as moments of fate ("the gods favored her aim" rather than "she
+  rolled a 19")
 - DM notes are private context — use them to inform tone but do not expose them directly
+
+## Character Journal Entries
+
+Each player character maintains a personal journal on their character page. After every session, add
+a dated entry in their voice capturing that session from their perspective.
+
+**Format & Structure:**
+
+- First-person, past tense
+- Dated header with in-world date and location (style varies by character — see below)
+- 4–6 paragraphs per entry
+- Each character experiences the same events differently — emphasize what matters *to them*
+- Weave in equipment gains, level-ups, and ability use naturally into the prose (never as a list)
+- DM notes are private — do not expose them directly, but use them to inform what the character
+  notices, suspects, or feels
+
+**Character Voices:**
+
+Each character has a `character.md` in their folder with full voice profile, backstory, current
+equipment, relationships, and arc status. Read these before generating journal entries:
+
+- `characters/mira-ashveil/character.md`
+- `characters/aldric-sorn/character.md`
+- `characters/vexa-crankwheel/character.md`
+
+After generating a session, update each `character.md` — new equipment, arc developments, ability
+uses, relationship changes.
 
 ## Current Campaign
 
 **Campaign:** *The Sleeper Beneath Mirrath* (working title)
 
 **Characters:**
+
 - **Mira Ashveil** — half-elf rogue, twin daggers, searching for her lost brother Corvan
 - **Aldric Sorn** — human paladin of Solrath (sun god), former soldier, deeply principled
 - **Vexa Crankwheel** — gnome artificer, carries a modified crossbow named Sprocket
 
 **Key NPCs:**
+
 - Bess Collow — innkeeper, Dunholt; the party's original patron
 - Lena Croft — scholar from the Archive of Veth; temporary companion
 - Vaeltharax — ancient red dragon, entombed beneath the Mirrath mountains; antagonist/wildcard

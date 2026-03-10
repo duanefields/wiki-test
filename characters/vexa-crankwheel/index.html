@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vexa Crankwheel — Journal | The Sleeper Beneath Mirrath</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f0d0a;
+      --surface: #1a1610;
+      --border: #3a2e1e;
+      --amber: #c8922a;
+      --amber-dim: #8a6218;
+      --text: #d4c5a9;
+      --text-dim: #8a7a62;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Crimson Text', Georgia, serif;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 3rem 2rem 6rem;
+    }
+
+    /* Nav */
+    .site-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 3rem;
+    }
+    .site-nav a {
+      color: var(--amber-dim);
+      text-decoration: none;
+      font-family: 'Cinzel', serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .site-nav a:hover { color: var(--amber); }
+    .site-nav .char-links { display: flex; gap: 1.5rem; }
+    .site-nav .char-links a.active { color: var(--amber); }
+
+    /* Character header */
+    .char-meta {
+      font-family: 'Cinzel', serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--amber-dim);
+      margin-bottom: 0.75rem;
+    }
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.4rem;
+      font-weight: 600;
+      color: var(--amber);
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+    .char-tagline {
+      font-size: 1rem;
+      color: var(--text-dim);
+      font-style: italic;
+      margin-bottom: 3rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Journal entries */
+    .journal-entry {
+      margin-bottom: 4rem;
+    }
+    .entry-header {
+      margin-bottom: 1.5rem;
+    }
+    .entry-session {
+      font-family: 'Cinzel', serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--amber-dim);
+      margin-bottom: 0.4rem;
+    }
+    .entry-date {
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.3rem;
+    }
+    .entry-session-link {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+    }
+    .entry-session-link a {
+      color: var(--amber-dim);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .entry-session-link a:hover { color: var(--amber); }
+
+    /* Divider */
+    .divider {
+      text-align: center;
+      color: var(--amber-dim);
+      margin: 2.5rem 0;
+      letter-spacing: 0.3em;
+      font-size: 0.85rem;
+      opacity: 0.6;
+    }
+
+    /* Prose */
+    p { margin-bottom: 1.4em; }
+    p:last-child { margin-bottom: 0; }
+
+    blockquote {
+      border-left: 3px solid var(--amber-dim);
+      margin: 1.8rem 0;
+      padding: 0.5rem 1.4rem;
+      font-style: italic;
+      color: var(--text-dim);
+      background: rgba(200, 146, 42, 0.04);
+    }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <nav class="site-nav">
+    <a href="../../index.html">&#8592; Campaign</a>
+    <div class="char-links">
+      <a href="../mira-ashveil/index.html">Mira</a>
+      <a href="../aldric-sorn/index.html">Aldric</a>
+      <a href="../vexa-crankwheel/index.html" class="active">Vexa</a>
+    </div>
+  </nav>
+
+  <p class="char-meta">Field Notes &bull; The Sleeper Beneath Mirrath</p>
+  <h1>Vexa Crankwheel</h1>
+  <p class="char-tagline">Gnome artificer. Carries a crossbow named Sprocket. Interested in everything.</p>
+
+  <div class="journal-entry">
+    <div class="entry-header">
+      <p class="entry-session">Session I</p>
+      <p class="entry-date">Entry #4,218 &mdash; Dunholt, Coldmarch</p>
+      <p class="entry-session-link">&#8594; <a href="../../session-1/index.html">The Amber Road</a></p>
+    </div>
+
+    <p>Finally: a problem. Dunholt presents as a standard low-economy trade town with one tavern, one garrison, and one mystery — three missing persons, no guard cooperation, and a mill that has not operated in over a year despite a sign advertising renovations that no one has performed. I spoke with the innkeeper (Bess — sharp, trustworthy, good at reading people) and agreed to the investigation. The coin is reasonable. The puzzle is considerably better than the coin.</p>
+
+    <p>I visited Dunby the alchemist first, on the reasonable assumption that anything requiring sulfur and black salt in bulk quantities would require a local supplier. He was frightened and unhelpful in the way of a man who knows exactly what he has been asked and is afraid of what knowing implies for his own safety. Sufficient sulfur and black salt to preserve approximately twelve bodies. Someone organized this. Someone with resources and patience and a specific purpose for the preservation.</p>
+
+    <p>Mira found a symbol at the docks and I logged a reproduction in my notebook: Ouroboros Shattered — a serpent devouring itself, but with angular geometric cuts disrupting the circle at three points. Intentional asymmetry. This is always significant. It means the designer wanted the circle broken in a specific way, which means the breaking is the point, not the circle. I have filed this under "requires further research."</p>
+
+    <p>The mill fight was uncomplicated. Sprocket performed correctly. Net-bolt deployment was successful — caught the fleeing cultist cleanly and pinned him for questioning. I noted a slight drag on the secondary lever under the stress of rapid deployment; I have been meaning to address this. Tonight, probably.</p>
+
+    <p>The ritual chamber at the end of the tunnel was more interesting than the fight. The circle on the floor: blood, but geometrically precise in a way suggesting either formal magical training or excellent reference texts — possibly both. The cages. The woman inside, alive. And the bas-relief on the rear wall, which I examined for approximately four minutes while Aldric had what I can only describe as a quiet crisis in front of it. Magnificent stonework — whoever carved it was working from life or very detailed descriptions. The scale articulation is anatomically consistent with accounts of elder wyrms in the texts I have read. The eye is open. Bas-relief eyes do not typically suggest ongoing awareness. This one did, somehow. I do not have a technical explanation for that yet. I have filed it under "requires further research" as well. That file is getting large.</p>
+  </div>
+
+  <div class="divider">&#10022; &nbsp; &#10022; &nbsp; &#10022;</div>
+
+  <div class="journal-entry">
+    <div class="entry-header">
+      <p class="entry-session">Session II</p>
+      <p class="entry-date">Entry #4,219 &mdash; The Maw, northern foothills</p>
+      <p class="entry-session-link">&#8594; <a href="../../session-2/index.html">The Sleeper's Name</a></p>
+    </div>
+
+    <p>Lena Croft (scholar, Archive of Veth, field-adjacent against her original intentions) confirmed the Ouroboros Shattered symbology and provided the cult designation: Ashen Covenant. Structured, hierarchical, centrally directed by a "Hollow Priest" whose identity is unknown even to rank-and-file members. This is operationally intelligent — compartmentalization reduces information exposure significantly. Whoever designed the Covenant's structure understood operational security. That is worth noting.</p>
+
+    <p>The downtime: I upgraded Sprocket's pressure-release reload mechanism. I have been thinking about this modification for three weeks. The implementation took four hours and involved rerouting the secondary lever through a cam assembly that allows the reload to reset on trigger release rather than requiring a full manual cycle. The result is a bonus action reload on misfire. In controlled testing the mechanism is sound. I am pleased with it.</p>
+
+    <p>The road north produced a combat engagement with four professional scouts. I note, with some embarrassment, that the net-bolt misfired on my second shot — drag on the primary cam under combat conditions, which I should have caught in testing but did not. The net tangled Aldric rather than the target. He was briefly trapped. He was a good sport about it, all things considered. I have already identified the mechanical fault and corrected it. I am logging this as a design failure and a corrective success.</p>
+
+    <p>Then: the Maw. And the Resonance Engine.</p>
+
+    <p>I am going to write this plainly: the Resonance Engine is the most extraordinary artifact I have encountered in forty-seven years of active fieldwork and thirty years of theoretical study. A bronze disc approximately two meters in diameter, covered in a hybrid notation system combining standard arcane script with what appears to be a pre-Collapse engineering language I do not yet fully read. The chains are load-bearing in a way that suggests the disc has significant mass not entirely accounted for by its apparent dimensions — implying either dense internal structure or an ongoing gravitational enchantment, possibly both. When it activated, I felt the resonance through the stone floor.</p>
+
+    <blockquote>Blood as a power source. Inefficient by any standard measure — the energy yield per unit of organic fluid is far below what crystalline reagents would achieve. But if the signal source is sufficiently powerful to begin with, you do not need efficiency. You need range.</blockquote>
+
+    <p>I got a partial schematic before the voice spoke. Not enough. Nowhere near enough. But enough to know what questions to ask, which is always the beginning of the useful work. The voice confirmed the source hypothesis — ancient, penetrating, speaking from a very long way away through a machine built to amplify whatever it was. I have not slept much since. There is too much to calculate.</p>
+  </div>
+
+  <div class="divider">&#10022; &nbsp; &#10022; &nbsp; &#10022;</div>
+
+  <div class="journal-entry">
+    <div class="entry-header">
+      <p class="entry-session">Session III</p>
+      <p class="entry-date">Entry #4,220 &mdash; Dunholt, early Bloodawn</p>
+      <p class="entry-session-link">&#8594; <a href="../../session-3/index.html">Fire and Blood</a></p>
+    </div>
+
+    <p>Combat summary first, because I like to get the technical accounting done before I move to the harder material. Net-bolt deployment: successful against two simultaneous targets, soldiers three and four. The modified cam assembly performed correctly under pressure. Aldric had room to recover and re-engage. I am logging this as validation of the Session 2 correction. The reload modification works as designed under real conditions. Good.</p>
+
+    <p>The Hollow Priest's fear aura was outside my direct analytical experience — a targeted psychic compulsion operating at range, which is not my specialty. Aldric failed the initial save and stepped back. He recovered quickly. I was outside the aura's primary radius, which was fortunate, as I was occupied with the reload and would not have been in a good position to resist. I noted the effect's apparent range for future reference: approximately fifteen feet, hemispherical projection, decaying at distance.</p>
+
+    <p>Lena gave me her schematic notes for the Resonance Engine before she departed for the Archive. I have read them four times. They are excellent — she is a genuinely skilled technical analyst, and her work on the notation system fills several gaps in my own reconstruction. Combined with what I captured directly, I now have approximately sixty percent of the Engine's notation decoded. The remaining forty percent uses the pre-Collapse engineering language. I will need a reference text. The Archive of Veth almost certainly has one. I may write to Lena about this. I have started a dedicated sub-notebook for the Engine specifically. I have labeled it DO NOT LOSE.</p>
+
+    <p>The unmasking: Renfew. I had not suspected, which I am noting as an analytical failure on my part. In retrospect the behavioral patterns he exhibited were consistent with long-term coercive influence rather than simple bribery — old fear, accommodation, the settled look of someone who has made a kind of peace with being afraid. A decade of it. Vaeltharax is patient.</p>
+
+    <p>Three hundred years is a long time to wait. I am seventy-one years old, which is young for a gnome but not entirely young. I have perhaps two hundred productive years ahead of me, if things go reasonably well. Vaeltharax has been entombed for more than four of those lifespans, conscious the entire time, and what he has done with that time is build instruments and wait. He told Mira her brother is alive. She went very still. I did not ask then — there are moments that belong to other people, and that was one of them.</p>
+
+    <p>I admire the patience. I find it terrifying. I think both of those things are true simultaneously, and I am not sure what to do with that except write it down and keep moving.</p>
+  </div>
+
+</div>
+</body>
+</html>
