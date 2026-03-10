@@ -29,24 +29,10 @@ wiki/
 
 ## Workflow
 
-When a new session folder is added or `notes.txt` is updated:
-
-1. **Generate `session-N/index.html`** — Transform the raw notes into a dramatic fantasy-novel-style
-   narrative. Expand bullet points and scene descriptions into prose. Preserve all key facts (names,
-   places, outcomes, dice results if interesting). Do not invent events not implied by the notes.
-
-2. **Update `root index.html`** — Add or refresh an entry for the session. Each entry should
-   include:
-   - Session number and title
-   - Date played
-   - A 2–3 sentence summary (written in the same narrative style)
-   - A link to the session's `index.html`
-
-3. **Generate character journal entries** — For each of the three player characters, append a new
-   dated entry to their journal page in `characters/[name]/index.html`. Extract key moments from
-   the session notes that are relevant to that specific character. Write in their voice
-   (first-person, past tense). Weave in equipment gained, abilities used, and emotional reactions
-   naturally — do not list them separately. See "Character Journal Entries" below.
+Session processing is handled by the `/process-session` skill. Once `notes.txt` is in place, say
+"session N is ready" or `/process-session` — the skill runs the full pipeline automatically:
+session narrative, root index update, all three character journal entries, and `character.md`
+updates.
 
 ## Notes Format
 
@@ -71,30 +57,15 @@ When a new session folder is added or `notes.txt` is updated:
 
 ## Character Journal Entries
 
-Each player character maintains a personal journal on their character page. After every session, add
-a dated entry in their voice capturing that session from their perspective.
-
-**Format & Structure:**
-
-- First-person, past tense
-- Dated header with in-world date and location (style varies by character — see below)
-- 4–6 paragraphs per entry
-- Each character experiences the same events differently — emphasize what matters *to them*
-- Weave in equipment gains, level-ups, and ability use naturally into the prose (never as a list)
-- DM notes are private — do not expose them directly, but use them to inform what the character
-  notices, suspects, or feels
-
-**Character Voices:**
-
-Each character has a `character.md` in their folder with full voice profile, backstory, current
-equipment, relationships, and arc status. Read these before generating journal entries:
+Each character's `character.md` is the source of truth for their voice, header style, backstory,
+equipment, and arc. Read it before generating any journal entry for that character.
 
 - `characters/mira-ashveil/character.md`
 - `characters/aldric-sorn/character.md`
 - `characters/vexa-crankwheel/character.md`
 
-After generating a session, update each `character.md` — new equipment, arc developments, ability
-uses, relationship changes.
+After any session, update each `character.md` with new equipment, arc developments, and
+relationship changes so it stays current.
 
 ## Current Campaign
 

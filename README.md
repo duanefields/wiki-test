@@ -8,7 +8,11 @@ Raw session notes are transformed into dramatic, fantasy-novel-style prose and s
 ```text
 wiki/
 ├── README.md              # This file
-├── CLAUDE.md              # AI workflow instructions
+├── CLAUDE.md              # Always-on AI context: style rules, project conventions
+├── .claude/
+│   └── skills/
+│       └── process-session/
+│           └── SKILL.md  # The session-publishing pipeline (read this to understand the AI workflow)
 ├── style.css              # Shared stylesheet — edit here to change site appearance
 ├── templates/
 │   ├── session.html       # Structural shell for new session pages
@@ -23,14 +27,38 @@ wiki/
     └── index.html         # Generated narrative for that session
 ```
 
+## How the AI Workflow Works
+
+This project uses a [Claude Code skill](.claude/skills/process-session/SKILL.md) — a reusable
+instruction file that tells Claude exactly how to run the session-publishing pipeline. When you
+trigger it, Claude reads the skill and follows its steps: auto-detecting the session number,
+reading source files in parallel, generating prose, updating the index, writing character journal
+entries, and updating each character's source file.
+
+The skill lives at `.claude/skills/process-session/SKILL.md`. If you want to understand what
+Claude does (or change how it behaves), that's the file to read and edit.
+
+The companion file `CLAUDE.md` (at the project root) gives Claude always-on context: narrative
+style rules, notes format, and where the character source-of-truth files live. Skills handle
+*when and how* to run a workflow; `CLAUDE.md` handles *what this project is*.
+
 ## Adding a New Session
 
-1. Create a `session-N/` folder and drop in a `notes.txt` with the raw session notes.
-2. Ask Claude to generate the session — it will produce all three of the following automatically:
-   - `session-N/index.html` — narrative prose expanded from the notes
-   - Updated root `index.html` — new session card with summary and link
-   - Updated character journals — a new dated entry per character in `characters/[name]/index.html`
-3. After generation, Claude will also update each `character.md` with new equipment, arc developments, and relationship changes.
+Open Claude Code in this folder. Then either:
+
+**Option A — easiest:** Paste your raw session notes directly into the chat and say
+**"process these session notes"**. Claude will automatically create the next `session-N/` folder,
+save the notes, and run the full pipeline.
+
+**Option B:** Create a `session-N/` folder manually, drop in a `notes.txt`, then say
+**"session N is ready"** or type **`/process-session`**.
+
+Either way, Claude runs the full pipeline automatically:
+
+- `session-N/index.html` — narrative prose expanded from the notes
+- Updated root `index.html` — new session card with summary and link
+- Updated character journals — a new dated entry per character in `characters/[name]/index.html`
+- Updated `character.md` files — new equipment, arc developments, relationship changes
 
 ## Changing the Site Theme
 
