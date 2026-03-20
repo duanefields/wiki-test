@@ -88,4 +88,4 @@ relationship changes so it stays current.
 - Vaeltharax — ancient red dragon, entombed beneath the Mirrath mountains; antagonist/wildcard
 - Captain Renfew — garrison commander of Dunholt; unmasked as the Hollow Priest
 
-**Sessions so far:** 3 (party is Level 3 as of Session 3)
+**Sessions so far:** 4 (party is Level 4 as of Session 4)

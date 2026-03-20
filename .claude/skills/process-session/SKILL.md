@@ -107,7 +107,17 @@ Keep each `character.md` as the canonical source of truth for future generation.
 
 ---
 
-## Step 6 — Final check
+## Step 6 — Update `CLAUDE.md`
+
+Update the **Current Campaign** section of `CLAUDE.md` to reflect the new session:
+
+- Increment **Sessions so far** to the new session number
+- Update the party level if they leveled up (check `character.md` files updated in Step 5)
+- Update any NPC entries if their status changed significantly (e.g. unmasked, killed, joined the party)
+
+---
+
+## Step 7 — Final check
 
 Before reporting done, verify:
 
@@ -118,4 +128,4 @@ Before reporting done, verify:
 - [ ] No placeholder text like `[Session Title]` or `[Loot or XP item]` remains in any file
 - [ ] CSS paths are correct: session pages use `../style.css`, root uses `style.css`
 
-Report a brief summary of what was generated: session title, number of words in the narrative, and one sentence about each character's journal entry.
+Report a brief summary of what was generated: session title, number of words in the narrative, one sentence about each character's journal entry, and confirmation that `CLAUDE.md` was updated.
